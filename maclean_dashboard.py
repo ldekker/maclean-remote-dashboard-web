@@ -9,7 +9,7 @@ def homepage():
 
     <h2>Remote Dashboard</h2>
 
-    <iframe src="http://192.168.0.102:8080/stream?topic=/jetson_cam/image_raw" width="1300" height="740" frameborder="1" allowfullscreen></iframe>
+    <iframe src="http://192.168.0.102:8888/stream?topic=/jetson_cam/image_raw" width="640" height="360" frameborder="0" allowfullscreen></iframe>
     """
 
 if __name__=='__main__':
